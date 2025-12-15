@@ -25,3 +25,4 @@ jobs:
             cd ~/mqtt-chat
             git pull
             docker compose up -d
+            ./test_web.sh
